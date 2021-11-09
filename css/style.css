@@ -1,25 +1,41 @@
+/* .container-sm
+.container-md
+.container-lg */
 
 
-/* smartphone .container-sm
-tablet .container-md
-pc .container-lg */
-
-header {
-  background-color: red;
-}
-
-header .container {
+.container-fluid {
   background-color: green;
 }
 
-header .container .row {
-  background-color: yellow;
+.row {
+  background-color: rgb(0, 247, 255);
 }
 
-header .container .row [class *="col"] {
-  background-color: blue;
-  color: white;
-  border: 1px solid white;
+[class *="col"] {
+  background-color: yellow;
+  color: blue;
+  border: 1px solid blue;
+}
+
+
+/* MEDIA QUERY */
+@media screen and (min-width: 0) {
+  body {
+    background-color: rgb(171, 145, 175);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    
+    background-color: rgb(194, 91, 151);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  body {
+    background-color: rgb(234, 0, 255);
+  }
 }
 
 
