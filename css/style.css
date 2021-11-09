@@ -26,7 +26,7 @@
   body {
     background-color: rgb(171, 145, 175);
   }
-  .sub-container {
+  header .sub-container {
     width: 100%;
   }
   .ham-off {
@@ -39,7 +39,7 @@
   body {
     background-color: rgb(194, 91, 151);
   }
-  .sub-container {
+  header .sub-container {
     width: 80%;
   }
   .ham-on {
@@ -54,7 +54,7 @@
   body {
     background-color: rgb(234, 0, 255);
   }
-  .sub-container {
+  header .sub-container {
     width: 70%;
   }
 }
