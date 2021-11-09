@@ -1,0 +1,25 @@
+
+
+/* smartphone .container-sm
+tablet .container-md
+pc .container-lg */
+
+header {
+  background-color: red;
+}
+
+header .container {
+  background-color: green;
+}
+
+header .container .row {
+  background-color: yellow;
+}
+
+header .container .row [class *="col"] {
+  background-color: blue;
+  color: white;
+  border: 1px solid white;
+}
+
+
