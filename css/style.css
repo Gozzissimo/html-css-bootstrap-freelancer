@@ -1,10 +1,22 @@
+.root {
+  --white: #ffffff;
+  --dark-grey: #2C3E50;
+  --green: #1ABC9C;
+  --light-grey: #3A546D;
+}
+
 .container-fluid {
   background-color: green;
+}
+
+header {
+  background-color: var(--dark-grey);
 }
 
 .row {
   background-color: rgb(0, 247, 255);
 }
+
 
 [class *="col"] {
   background-color: yellow;
@@ -24,29 +36,38 @@
   border-radius: 50%;
 }
 
+.portfolio .row {
+  width: 100%;
+}
+
+.window {
+  background-color: red;
+  height: 300px;
+  border-radius: 20px;
+  
+}
+
 /* MEDIA QUERY */
 @media screen and (min-width: 0) {
-  body {
-    background-color: rgb(171, 145, 175);
-  }
-  header .sub-container {
+
+  .sub-container.wide {
     width: 100%;
+  }
+  .sub-container.small {
+    width: 90%;
   }
   .ham-off {
     display: none;
   }
-  .jumbotron .sub-container {
-    width: 90%;
-  }
-  
 }
 
 @media screen and (min-width: 768px) {
-  body {
-    background-color: rgb(194, 91, 151);
-  }
-  header .sub-container {
+
+  .sub-container.wide {
     width: 80%;
+  }
+  .sub-container.small {
+    width: 60%;
   }
   .ham-on {
     display: none;
@@ -54,19 +75,14 @@
   .ham-off {
     display: block;
   }
-  .jumbotron .sub-container {
-    width: 60%;
-  }
 }
 
 @media screen and (min-width: 992px) {
-  body {
-    background-color: rgb(234, 0, 255);
-  }
-  header .sub-container {
+
+  .sub-container.wide {
     width: 70%;
   }
-    .jumbotron .sub-container {
+  .sub-container.small {
     width: 50%;
   }
 }
