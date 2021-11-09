@@ -29,10 +29,10 @@
   .sub-container {
     width: 100%;
   }
-  /* .ham-off {
+  .ham-off {
     display: none;
   }
-   */
+  
 }
 
 @media screen and (min-width: 768px) {
@@ -42,13 +42,13 @@
   .sub-container {
     width: 80%;
   }
-  /* .ham-on {
+  .ham-on {
     display: none;
   }
   .ham-off {
     display: block;
   }
-} */
+}
 
 @media screen and (min-width: 992px) {
   body {
