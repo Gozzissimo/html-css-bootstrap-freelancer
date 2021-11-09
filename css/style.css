@@ -17,10 +17,9 @@
   border: 1px solid blue;
 }
 
-  .sub-container {
-    margin: auto;
-  }
-
+.sub-container {
+  margin: auto;
+}
 
 /* MEDIA QUERY */
 @media screen and (min-width: 0) {
@@ -30,7 +29,10 @@
   .sub-container {
     width: 100%;
   }
-  
+  /* .ham-off {
+    display: none;
+  }
+   */
 }
 
 @media screen and (min-width: 768px) {
@@ -40,7 +42,13 @@
   .sub-container {
     width: 80%;
   }
-}
+  /* .ham-on {
+    display: none;
+  }
+  .ham-off {
+    display: block;
+  }
+} */
 
 @media screen and (min-width: 992px) {
   body {
