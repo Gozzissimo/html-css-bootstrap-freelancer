@@ -3,9 +3,9 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-[class *="col"] {
+/* [class *="col"] {
   border: 1px solid blue
-}
+} */
 
 .star {
   font-size: 1.5em;
@@ -13,7 +13,15 @@ body {
 
 .star-line {
   height: 3px;
+}
+
+.bg-light {
   background-color: var(--bs-white);
+}
+
+.bg-dark {
+  height: 3px;
+  background-color: var(--bs-gray-dark);
 }
 
 /* header */
@@ -80,11 +88,18 @@ body {
   width: 250px;
 }
 
-.window {;
+/* portfolio */
+.window {
   width: 100%;
   border-radius: 20px;
 }
 
+/* about */
+.about {
+  color: var(--bs-white);
+}
+
+/* footer */
 .footer {
   background-color: var(--bs-gray-dark);
 }
