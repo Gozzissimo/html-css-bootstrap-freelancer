@@ -30,20 +30,28 @@
     <!-- header -->
     <header class="header">
         <div class="container">
-            <div class="row">
-                <div class="col-6 py-3">
+            <div class="row align-items-center">
+                <div class="col-6 py-4">
                     <h1 class="mb-0">
                         start bootstrap
                     </h1>
                 </div>
-                <div class="hamburger col-6 text-end d-sm-none py-3">
-                        <i class="fas fa-bars"></i>
+                <div class="col-6 text-end d-sm-none py-3">
+                    <a class="hamburger" href="#">
+                        <i class="hamb-bar fas fa-bars py-1 px-2"></i>
+                    </a>
                 </div>
-                <div class="col-6 text-end d-none d-sm-block py-3">
+                <div class="col-6 text-end d-none d-sm-block py-4">
                     <ul class="nav-menu list-inline mb-0">
-                        <li class="list-inline-item">portfolio</li>
-                        <li class="list-inline-item">about</li>
-                        <li class="list-inline-item">contact</li>
+                        <li class="list-inline-item">
+                            <a href="#portfolio">portfolio</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#about">about</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#contact">contact</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -71,7 +79,7 @@
     <main>
 
         <!-- portfolio -->
-        <section class="portfolio">
+        <section id="portfolio" class="portfolio">
             <div class="container py-5">
                 <div class="row">
                     <div class="col-12 text-center">
@@ -100,7 +108,7 @@
         </section>
 
         <!-- about -->
-        <section class="about">
+        <section id="about" class="about">
             <div class="container py-5">
                 <div class="row justify-content-center">
                     <div class="col-8">
@@ -125,7 +133,7 @@
         </section>
 
         <!-- contact -->
-        <section class="contact">
+        <section id="contact" class="contact">
             <div class="container py-5">
                 <div class="row justify-content-center">
                     <div class="col-8">
