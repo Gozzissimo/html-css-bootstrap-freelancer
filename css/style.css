@@ -1,26 +1,20 @@
-
 [class *="col"] {
-  background-color: yellow;
-  color: blue;
-  border: 1px solid blue;
+  border: 1px solid blue
 }
 
 .jumbotron .img {
+  display: inline-block;
   height: 200px;
-  width: 200px;
-  border: 3px solid beige;
-  background-color: white;
+  width: 300px;
+  background-color: coral;
   border-radius: 50%;
 }
 
-.portfolio .row {
-  width: 100%;
-}
-
 .window {
-  background-color: red;
   height: 300px;
+  width: 100%;
   border-radius: 20px;
+  background-color: rgb(0, 183, 255);
   
 }
 
@@ -33,57 +27,16 @@ header {
   background-color: var(--bs-teal);
 }
 
-.portfolio,
-.contact {
-  background-color: var(--bs-white);
-}
-
-.up-footer {
-  background-color: rgb(81, 100, 136);
-}
-
-.bot-footer {
+.footer {
   background-color: var(--bs-gray-dark);
 }
 
-/* MEDIA QUERY */
-@media screen and (min-width: 0) {
-  
-  .sub-container.wide {
-    width: 100%;
-  }
-  .sub-container.small {
-    width: 90%;
-  }
-  .ham-off {
-    display: none;
-  }
-}
 
-@media screen and (min-width: 768px) {
+/* media query */
 
-  .sub-container.wide {
-    width: 80%;
-  }
-  .sub-container.small {
-    width: 60%;
-  }
-  .ham-on {
-    display: none;
-  }
-  .ham-off {
-    display: block;
-  }
-}
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 576px) {
 
-  .sub-container.wide {
-    width: 70%;
-  }
-  .sub-container.small {
-    width: 50%;
-  }
 }
 
 
