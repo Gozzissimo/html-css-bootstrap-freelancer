@@ -7,13 +7,13 @@ body {
   border: 1px solid blue
 }
 
-.star::before,
-.star::after {
-  display: inline-block;
-  content: '';
-  width: 50%;
+.star {
+  font-size: 1.5em;
+}
+
+.star-line {
   height: 3px;
-  background-color: white;
+  background-color: var(--bs-white);
 }
 
 /* header */
