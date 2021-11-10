@@ -6,28 +6,40 @@ html {
   border: 1px solid blue
 }
 
-
-
 .jumbotron .img {
   display: inline-block;
   height: 300px;
   width: 300px;
-  background-color: coral;
-  border-radius: 50%;
 }
 
-.window {;
-  width: 100%;
-  border-radius: 20px;
-}
-
-header {
+.header {
+  text-transform: uppercase;
   background-color: var(--bs-gray-dark);
+  font-weight: bold;
+  color: var(--bs-white);
+}
+
+.header h1 {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.header .nav-menu{
+  font-size: 0.8em;
+}
+
+.jumbotron {
+  text-transform: uppercase;
 }
 
 .jumbotron,
 .about {
   background-color: var(--bs-teal);
+}
+
+.window {;
+  width: 100%;
+  border-radius: 20px;
 }
 
 .footer {
