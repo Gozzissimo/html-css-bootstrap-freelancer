@@ -1,17 +1,8 @@
 
-.row {
-  background-color: rgb(0, 247, 255);
-}
-
-
 [class *="col"] {
   background-color: yellow;
   color: blue;
   border: 1px solid blue;
-}
-
-.sub-container {
-  margin: 0 auto;
 }
 
 .jumbotron .img {
